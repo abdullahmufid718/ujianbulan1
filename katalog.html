@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="icon" type="image/png" href="favicon.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Menghubungkan ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header dengan navigasi -->
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo">
+          <h1>Charmgang Luxury</h1>
+        </div>
+        <nav class="main-navigation" aria-label="Navigasi Utama">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html" class="nav-link">
+                <i class="fa-solid fa-house"></i>Beranda</a
+              >
+            </li>
+            <li>
+              <a href="katalog.html" class="nav-link">
+                <i class="fa-solid fa-utensils"></i>Menu</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link"
+                ><i class="fa-regular fa-circle-question"></i>Tentang</a
+              >
+            </li>
+            <li>
+              <a href="kontak.html" class="nav-link">
+                <i class="fa-solid fa-envelope"></i>Kontak</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="hero-section" id="home">
+        <div class="hero-content">
+          <h2 class="hero-title">
+            Nikmati Cita Rasa Makanan Dari Berbagai Penjuru Dunia
+          </h2>
+          <p class="hero-subtitle">
+            Masakan dari penjuru dunia yang dimasak oleh chef profesional.
+          </p>
+          <a href="katalog.html" class="btn-primary">Lihat Menu Kami</a>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="section-container">
+          <h2 class="section-title">Menu Unggulan</h2>
+          <p class="section-description">
+            Pilihan makanan terbaik dari berbagai macam daerah dari penjuru
+            dunia
+          </p>
+
+          <div class="menu-grid">
+            <article class="menu-item">
+              <div class="product-image">
+                <img
+                  src="gambar.1.jpg"
+                  alt="Lasagna italy"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Lasagna Italia</h3>
+                <p class="product-description">
+                  Pasta yang dipanggang di oven dan merupakan makanan
+                  tradisional Italia.Diisi dengan banyak isian lainnya seperti
+                  daging, sayur-sayuran, ayam, dan makanan laut.
+                </p>
+                <span class="product-price">Rp 45.000</span>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="product-image">
+                <img
+                  src="gambar.2.webp"
+                  alt="Rendang Daging Sapi"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Rendang Daging Sapi</h3>
+                <p class="product-description">
+                  Rendang khas Padang dengan daging sapi pilihan yang dimasak
+                  perlahan hingga empuk dan berbumbu.
+                </p>
+                <span class="product-price">Rp 55.000</span>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <div class="product-image">
+                <img src="gambar.3.jpg" alt="" class="img-responsive" />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Bebek Peking</h3>
+                <p class="product-description">
+                  Makanan khas Beijing yang terkenal, di mana bebek dipanggang
+                  hingga kulitnya renyah dan berkilau hingga dagingnya lembut
+                  dan juicy.
+                </p>
+                <span class="product-price">Rp 90.000</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="section-container">
+          <h2 class="section-title">Tentang Charmgang Luxury</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                <em>Restoran Charmgang Luxury</em> didirikan pada tahun 2019
+                dengan misi memperkenalkan makanan khas kuliner dari berbagai
+                penjuru dunia kepada <small>masyarakat modern.</small>
+              </p>
+              <p>
+                Kami menggunakan bahan-bahan segar pilihan,
+                <mark
+                  >berkualitas dan resep yang khas dari berbagai daerah penjuru
+                  dunia</mark
+                >
+                untuk <strong>menghadirkan cita rasa autentik</strong> yang
+                sulit ditemukan di tempat lain.
+              </p>
+              <ul class="about-features">
+                <li>Bahan baku segar yang dipilih secara berkualitas</li>
+                <li>Resep khas asli</li>
+                <li>Harga terjangkau</li>
+                <li>Tempat nyaman dan bersih</li>
+              </ul>
+            </div>
+            <div class="about-image">
+              <img
+                src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=500&h=400&fit=crop"
+                alt="Suasana Charmgang Luxury"
+                class="img-rounded"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section">
+        <div class="section-container">
+          <h2 class="section-title">Apa Kata Pelanggan</h2>
+          <div class="testimonial-grid">
+            <blockquote class="testimonial-card">
+              <p>
+                "Rendangnya benar-benar seperti buatan nenek di Padang. Empuk
+                dan bumbunya meresap sempurna!"
+              </p>
+              <cite>— Sarah, Bandung</cite>
+            </blockquote>
+            <blockquote class="testimonial-card">
+              <p>
+                "Our family's favorite spot. The food is delicious, the prices
+                are reasonable, and the service is friendly."
+              </p>
+              <cite>— Alex, Cambridge</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <video
+          controls
+          width="500"
+          height="280"
+          poster="thumbnail/poster-video.jpg"
+          autoplay
+          muted
+          loop
+          style="border-radius: 8px"
+        >
+          <source src="video.mp4" type="video/mp4" />
+          <source src="video.webm" type="video/webm" />
+          Browser Anda tidak mendukung elemen pemutar video.
+        </video>
+        <!-- Bagian Media: Audio -->
+        <section style="margin-bottom: 30px">
+          <h2>Audio Favorit</h2>
+          <p>Putar musik latar di bawah ini:</p>
+          <audio controls>
+            <source
+              src="TULUS - Teh Hijau (Official Lyric Video).mp3"
+              type="audio/mpeg"
+            />
+            <source
+              src="TULUS - Teh Hijau (Official Lyric Video).mp3"
+              type="audio/mpeg"
+            />
+            Browser Anda tidak mendukung pemutaran audio HTML5.
+          </audio>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

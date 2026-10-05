@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak - Charmgang Luxury</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Menghubungkan ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header dengan navigasi -->
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo">
+          <h1>Charmgang Luxury</h1>
+        </div>
+        <nav class="main-navigation" aria-label="Navigasi Utama">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html" class="nav-link">
+                <i class="fa-solid fa-house"></i>Beranda</a
+              >
+            </li>
+            <li>
+              <a href="katalog.html" class="nav-link">
+                <i class="fa-solid fa-utensils"></i>Menu</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link"
+                ><i class="fa-regular fa-circle-question"></i>Tentang</a
+              >
+            </li>
+            <li>
+              <a href="kontak.html" class="nav-link">
+                <i class="fa-solid fa-envelope"></i>Kontak</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Konten utama halaman -->
+    <main class="main-content">
+      <!-- Section: Judul Halaman -->
+      <section class="page-header-section">
+        <div class="section-container">
+          <h2 class="page-title">Hubungi Kami</h2>
+          <p class="page-subtitle">
+            Kami siap melayani pertanyaan dan pemesanan Anda
+          </p>
+        </div>
+      </section>
+
+      <!-- Section: Form Kontak -->
+      <section class="contact-form-section">
+        <div class="section-container">
+          <div class="contact-grid">
+            <!-- Form Kontak -->
+            <div class="form-wrapper">
+              <h3 class="form-title">Kirim Pesan</h3>
+              <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-input"
+                    placeholder="Masukkan nama Anda"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    placeholder="contoh@email.com"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone" class="form-label">Nomor Telepon</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="form-input"
+                    placeholder="08xxxxxxxxxx"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subjek</label>
+                  <select id="subject" name="subject" class="form-input">
+                    <option value="">Pilih subjek</option>
+                    <option value="reservation">Reservasi Tempat</option>
+                    <option value="catering">Pesan Catering</option>
+                    <option value="complaint">Keluhan</option>
+                    <option value="suggestion">Saran</option>
+                    <option value="other">Lainnya</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Pesan</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-textarea"
+                    rows="5"
+                    placeholder="Tulis pesan Anda di sini..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Kirim Pesan</button>
+              </form>
+            </div>
+
+            <!-- Informasi Kontak -->
+            <div class="contact-info-wrapper">
+              <h3 class="info-title">Informasi Kontak</h3>
+
+              <div class="contact-card">
+                <div class="contact-icon">📍</div>
+                <div class="contact-details">
+                  <h4>Alamat</h4>
+                  <p>
+                    Jl. Merdeka No. 14<br />Jakarta Selatan, DKI Jakarta 10110
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">📞</div>
+                <div class="contact-details">
+                  <h4>Telepon</h4>
+                  <p>
+                    <a href="tel:+628123456789" class="contact-link"
+                      >+62 812 3456 789</a
+                    >
+                    (WhatsApp)
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>
+                    <a
+                      href="mailto:info@RestoCharmgangLuxury .com"
+                      class="contact-link"
+                      >info@RestoCharmgangLuxury.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-icon">🕐</div>
+                <div class="contact-details">
+                  <h4>Jam Operasional</h4>
+                  <ul class="hours-list">
+                    <li>Senin - Jumat: 10.00 - 22.00 WIB</li>
+                    <li>Sabtu - Minggu: 09.00 - 23.00 WIB</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Google Maps -->
+      <section class="map-section">
+        <div class="section-container">
+          <h3 class="map-title">Lokasi Kami</h3>
+          <div class="map-wrapper">
+            <!-- Google Maps Embed -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126920.28316997513!2d106.7594878!3d-6.2297465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1234567890"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map-frame"
+              title="Peta Lokasi Restoran Charmgang Luxury"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Charmgang Luxury</h3>
+          <p>Makanan khas cita rasa dari berbagai negara.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Jam Operasional</h4>
+          <ul class="footer-list">
+            <li>Senin - Jumat: 10.00 - 22.00</li>
+            <li>Sabtu - Minggu: 09.00 - 23.00</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Ikuti Kami</h4>
+          <div class="social-links">
+            <a
+              href="https://www.instagram.com/warungmakan.bhs?stkn=MTFjaXF3NGV0NnkxOA=="
+              class="social-link"
+              >Instagram</a
+            >
+            <a href="https://wa.me/628538541854" class="social-link"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2028 Resto Charmgang Luxury. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
